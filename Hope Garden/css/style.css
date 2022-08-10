@@ -1,3 +1,9 @@
+/**
+ * @author Melany Benalcazar   <mpbenalc@lakeheadu.ca>
+ * @file Description
+ * @desc Created on 2022-08-10 12:34:59 pm
+ * @copyright CC
+ */
 /* Default styles for the browser */
 *{
   margin: 0;
@@ -15,8 +21,7 @@ header{
   z-index: 1;
 }
 
-header .inner{
-  width: 1300px; /*This is the inner width of the content inside of your header (80%, etc)*/
+/* header .inner{
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -61,7 +66,7 @@ header nav a{
 
 header nav .button{
   background-color: #1ab26b; /*This HEX is the color of the button*/
-  color: #FFF;
+  /*color: #FFF;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -75,12 +80,16 @@ header nav .button:hover{
   width: 100%;
   z-index: 0;
 }
-
+ */
 #logo{
   position: absolute;
   top: 425px;
   left: 100px;
   z-index: 1;
+}
+
+#logo-image{
+  width: 50vw;
 }
 
 #logo-text{
