@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  header{
+    width: 100vw;
+    height: auto;
+    background-color: yellow;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    z-index: 1;
+  }
+.header-logo{
+    width: 50%;
+}
+ .header-logo img{
+    padding: 2vw; 
+    width: 35vw;
+}
