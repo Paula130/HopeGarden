@@ -1,60 +1,52 @@
+
+<!--
+ @author Melany Benalcazar   <mpbenalc@lakeheadu.ca>
+ @file Description
+ @desc Created on 2022-08-10 3:08:46 pm
+ @copyright CC
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title> Agastache foeniculum (Anise Hyssop) - Plants | Hope Garden</title>
+    <title> Anise Hyssop - Plants | Hope Garden </title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleHeader.css">
     <link rel="icon" href="images/Updated_Hope_Garden_Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
         
-        <script src="js/site.js"></script>
+        <script src="js/scriptIndex.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-</head>
-<body>
 
     <header>
         <div class="inner">
-            <nav class="">
-
-                <div class="header-logo">
-                    <a href="#home" class="active"><img src="images/Updated_Hope_Garden_Logo.png"></a>
-                </div>
-                <!-- Navigation Links (Hidden by default) -->
-                <div class="header-links">
-                    <a href="#garden">Garden</a>
-                    <a href="#contact">Contact Us</a>
-                </div>
-                <!-- "Hamburger Menu"/ "Bar icon" to toggle the navigation links -->
-
-
-
-
-
+            <nav>
+                <!-- Header logo -->
+                <div class="header-logo"> <a href="#home" class="active"><img src="images/Updated_Hope_Garden_Logo.png"></a> </div>
                 
-                <!-- Each of the below lines look complicated. There is a reason for this markup though!
-                <li> tag will be the container for the table.
-                <span> will be the part that centers the content inside it
-                <a> is the actual clickable part -->
-                <!-- <li><span><a href="">About</a></span></li>
-                <li><span><a href="">Work</a></span></li>
-                <li><span><a href="">History</a></span></li>
-                <li><span><a href="" class="button">Contact</a></span></li> -->
-                <!-- On the line above, remove the class="button" if you don't want the final
-                element to be a button -->
+                <!-- Header title -->
+                <div id="header-title"><p>Hope Garden</p></div>
+                
+                <!-- "Hamburger Menu"/ "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="hamburger-icon delayed" onclick="barMenu()"><img src="images/hamburger-icon.svg" alt="hamburger-icon"></a>
+                
+                <!-- Navigation Links (Hidden by default) -->
+                <div id="header-links">
+                    <a href="#home" class="delayed">HOME</a>
+                    <a href="#garden" class="delayed">GARDEN</a>
+                    <a href="#contact" class="delayed">CONTACT US</a>
+                </div>
             </nav>
         </div>
     </header>
-    
     
     
     <div class="row">
