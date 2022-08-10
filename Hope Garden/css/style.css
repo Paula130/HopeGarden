@@ -71,3 +71,11 @@ p, li{
 .card-body{
   padding-top:10vw;
 }
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:bold;
+  /*color:#734f96;*/
+  font-size: 10vw;
+  padding-left: 14vw;
+}
