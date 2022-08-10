@@ -17,7 +17,7 @@
     height: auto;
   }
 
-/* Navigation Bar style*/
+/* Navigation bar style*/
 nav{
   overflow: hidden;
   position: fixed;
@@ -38,6 +38,7 @@ nav{
     padding: 2vw; 
     width: 25vw;
 }
+
 /* Header title style */
 #header-title{
   width: 50%;
@@ -49,7 +50,7 @@ nav{
   padding: 0 5vw;
 }
 
-/* Hamburger menu style */
+/*Header link style */
 #header-links{
   padding: 1vw; 
   text-decoration: none;
@@ -62,7 +63,6 @@ nav{
   text-decoration: none;
   text-align: center;
   font-size: 2em;
-
 }
 #header-links a:active {
   background: rgb(255, 145, 54);
@@ -73,10 +73,9 @@ nav{
   transition-delay: 300ms;
 }
 
-.delayed:active {
-  transition: none;
-}
+.delayed:active {transition: none;}
 
+/* Hamburger icon style */
 .hamburger-icon{
   width: 50%;
 }
